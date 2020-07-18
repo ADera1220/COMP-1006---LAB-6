@@ -1,8 +1,5 @@
 <?php
-    $dsn = 'mysql:host=localhost:3308;dbname=comp1006_summer2020';
-    $username = 'root';
-    $password = ''; 
-    $db = new PDO($dsn, $username, $password);
-    //set error mode to exception 
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$db = new PDO('mysql:host=172.31.22.43;dbname=Adam200422676', 'Adam200422676', 'OJ2a-KKe6M');
+
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
